@@ -1,0 +1,10 @@
+width = float(input())
+lenth = float(input())
+b = int(input())
+cap = int(input())
+pros = int(input())
+v = width * lenth / b
+print(width * lenth)
+print(v)
+print(v // cap + 1)
+print(b - (v // cap + 1))
